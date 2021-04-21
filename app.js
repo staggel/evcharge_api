@@ -1,7 +1,7 @@
 const express = require('express');
 const https = require('https');
 const fs = require('fs');
-const config=require('./config.js');
+const config=require('./config');
 const db=require('./db.js');
 
 const loginrouter=require('./routes/login.js');

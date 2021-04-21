@@ -4,7 +4,7 @@
 const express=require('express');
 const router=express.Router();
 const db=require('../db.js');
-const config=require('../config.js');
+const config=require('../config');
 const bcrypt = require('bcryptjs');
 
 router.post('/',(req,res) => {

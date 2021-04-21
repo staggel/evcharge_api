@@ -3,7 +3,7 @@ const router=express.Router();
 const jwt=require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const db= require('../db.js');
-const config=require('../config.js');
+const config=require('../config');
 
 //decode parameters
 router.use(express.urlencoded({extended: true}));
