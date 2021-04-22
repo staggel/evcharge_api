@@ -50,7 +50,7 @@
 | PeriodTo                 | Date_to parameter                                            |
 | NumberOfChargingSessions | Number of charging sessions for the given parameters         |
 | ChargingSessionsList:    | List of charging sessions with size NumberOfChargingSessions |
-|                           |                                           |
+| -------------------     |                 -------------------      |
 | **ChargingSessionsList Field** | **Description**                    |      
 | SessionIndex               | Index of session in the list           |
 | SessionID                  | Session ID                             |
@@ -80,6 +80,7 @@
 | NumberOfChargingSessions   | Number of charging sessions in the given time interval |
 | NumberOfActivePoints    | Number of distinct charging points used |
 | SessionsSummaryList:    | List of charging sessions per point with size NumberOfActivePoints  |
+|-------------------|-------------------|
 | **SessionsSummaryList Field** | **Description**                          
 | PointID               | Point ID           |
 | PointSessions                  | Number of charging sessions for this point                             |
@@ -103,6 +104,7 @@
 | NumberOfVisitedPoints   | Number of distinct points where this vehicle has been charged |
 | NumberOfVehicleChargingSessions    | Number of charging sessions for this vehicle in the given time interval |
 | VehicleChargingSessionsList:    | List of charging sessions size NumberOfVehicleChargingSessions  |
+|-------------------|-------------------|
 | **VehicleChargingSessionsList Field** | **Description**                          
 | SessionIndex               | Index of session in the list           |
 | SessionID                  | Session ID                             |
