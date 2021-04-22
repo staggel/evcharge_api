@@ -50,8 +50,8 @@
 | PeriodTo                 | Date_to parameter                                            |
 | NumberOfChargingSessions | Number of charging sessions for the given parameters         |
 | ChargingSessionsList:    | List of charging sessions with size NumberOfChargingSessions |
-<br>
-| **ChargingSessionsList Field** | **Description**                          
+|                           |                                           |
+| **ChargingSessionsList Field** | **Description**                    |      
 | SessionIndex               | Index of session in the list           |
 | SessionID                  | Session ID                             |
 | StartedOn                  | Starting timestamp of the session      |
@@ -61,6 +61,7 @@
 | Payment                    | Payment Method                         |
 | VehicleType                | Type of the charged vehicle            |
 <br>
+
 ### **Sessions Per Station**
 | Endpoint                                                           | Method | Parameters                                        | Description                                                                  |
 |--------------------------------------------------------------------|--------|---------------------------------------------------|------------------------------------------------------------------------------|
@@ -79,7 +80,6 @@
 | NumberOfChargingSessions   | Number of charging sessions in the given time interval |
 | NumberOfActivePoints    | Number of distinct charging points used |
 | SessionsSummaryList:    | List of charging sessions per point with size NumberOfActivePoints  |
-<br>
 | **SessionsSummaryList Field** | **Description**                          
 | PointID               | Point ID           |
 | PointSessions                  | Number of charging sessions for this point                             |
@@ -103,7 +103,6 @@
 | NumberOfVisitedPoints   | Number of distinct points where this vehicle has been charged |
 | NumberOfVehicleChargingSessions    | Number of charging sessions for this vehicle in the given time interval |
 | VehicleChargingSessionsList:    | List of charging sessions size NumberOfVehicleChargingSessions  |
-<br>
 | **VehicleChargingSessionsList Field** | **Description**                          
 | SessionIndex               | Index of session in the list           |
 | SessionID                  | Session ID                             |
@@ -151,7 +150,7 @@
 | ProviderName         | Provider Name                                  |
 
 <br>
-*Date format in response objets is "YYYY-MM-DD HH:MM:SS"
+*Date format in response objets is "YYYY-MM-DD HH:MM:SS"<br>
 *Session in session lists are in ascending order by start and finish times
 <br>
 
