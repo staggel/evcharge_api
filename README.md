@@ -33,7 +33,7 @@
 
 ## Data Endpoints
 #### All following endpoints require a valid JWT token 
-
+#### All following endpoints take an optional query parameter to specify desired response format {?format=json|csv}. Default option is json.
 ### **Sessions Per Point**
 | Endpoint                                                           | Method | Parameters                                        | Description                                                                  |
 |--------------------------------------------------------------------|--------|---------------------------------------------------|------------------------------------------------------------------------------|
